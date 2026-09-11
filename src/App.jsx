@@ -22,12 +22,12 @@ export default function App() {
   const goJJ = useCallback(() => { setTab('jj'); window.scrollTo(0, 0) }, [])
 
   return (
-    <div style={{ fontFamily: 'Karla, system-ui, sans-serif', background: '#f7f4ee', minHeight: '100vh', position: 'relative' }}>
+    <div style={{ fontFamily: "'Source Sans 3', system-ui, sans-serif", background: '#f7f4ee', minHeight: '100vh', position: 'relative' }}>
       <Background tab={tab} />
 
       <header style={{ position: 'sticky', top: 0, zIndex: 20, background: 'rgba(247,244,238,0.82)', backdropFilter: 'blur(10px)', borderBottom: '1px solid #e3ddd1' }}>
         <div style={{ maxWidth: 1320, margin: '0 auto', padding: '16px clamp(32px, 6vw, 88px)', display: 'flex', alignItems: 'baseline', gap: 32, flexWrap: 'wrap' }}>
-          <div style={{ fontFamily: 'Newsreader, Georgia, serif', fontSize: 19, letterSpacing: '0.01em', marginRight: 'auto' }}>Moyan Liu</div>
+          <div style={{ fontFamily: "'Source Serif 4', Georgia, serif", fontSize: 19, letterSpacing: '0.01em', marginRight: 'auto' }}>Moyan Liu</div>
           <nav style={{ display: 'flex', gap: 22, alignItems: 'baseline', fontSize: 14, letterSpacing: '0.02em' }}>
             <button type="button" onClick={goHome} style={tabBtn(tab === 'home')}>Work</button>
             <button type="button" onClick={goJJ} style={tabBtn(tab === 'jj')}>Weather Jiu-Jitsu</button>

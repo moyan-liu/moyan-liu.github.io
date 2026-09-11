@@ -74,7 +74,7 @@ export default function Home() {
       {/* Hero */}
       <section style={{ ...sectionBase, paddingTop: 88, paddingBottom: 64, display: 'grid', gridTemplateColumns: 'minmax(0, 1fr) 300px', gap: 40, alignItems: 'start', position: 'relative' }}>
         <div>
-          <h1 style={{ fontFamily: 'Newsreader, Georgia, serif', fontWeight: 400, fontSize: 'clamp(38px, 5.2vw, 58px)', lineHeight: 1.05, margin: '0 0 10px', letterSpacing: '-0.02em' }}>Moyan&nbsp;Liu</h1>
+          <h1 style={{ fontFamily: "'Source Serif 4', Georgia, serif", fontWeight: 400, fontSize: 'clamp(38px, 5.2vw, 58px)', lineHeight: 1.05, margin: '0 0 10px', letterSpacing: '-0.02em' }}>Moyan&nbsp;Liu</h1>
           <div style={{ fontSize: 15, color: '#6b6558', marginBottom: 30 }}>PhD student, Complex Adaptive Systems Science · Arizona State University</div>
           <p style={{ fontSize: 19, lineHeight: 1.7, margin: '0 0 20px', color: '#33302a' }}>I use data-driven approaches to inform decision-making in complex systems, with a focus on the Earth's climate. My work combines dynamical systems theory, probabilistic modeling, and AI-based weather models to study the predictability and control of extreme events.</p>
           <p style={{ fontSize: 18, lineHeight: 1.7, margin: '0 0 20px', color: '#4c4740' }}>My research journey is the story of a drop of water: from water treatment, to water management, and ultimately to climate and weather. Following this path has broadened my perspective from individual water systems to the interconnected and complex Earth system, shaping how I think about water, climate, and the world around us.</p>
@@ -114,7 +114,7 @@ export default function Home() {
             <div key={years} style={{ display: 'grid', gridTemplateColumns: '116px minmax(0, 1fr)', gap: 18 }}>
               <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, color: '#a29a88', paddingTop: 4 }}>{years}</span>
               <div>
-                <div style={{ fontFamily: 'Newsreader, Georgia, serif', fontSize: 21, marginBottom: 4 }}>{degree}</div>
+                <div style={{ fontFamily: "'Source Serif 4', Georgia, serif", fontSize: 21, marginBottom: 4 }}>{degree}</div>
                 <div style={{ fontSize: 14, color: '#5f594c' }}>{school}</div>
               </div>
             </div>
@@ -129,42 +129,42 @@ export default function Home() {
           <li style={{ display: 'grid', gridTemplateColumns: '46px minmax(0,1fr)', gap: 16 }}>
             <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, color: '#a29a88', paddingTop: 5 }}>2026</span>
             <div>
-              <div style={{ fontFamily: 'Newsreader, Georgia, serif', fontSize: 18, lineHeight: 1.4, marginBottom: 7 }}><a href="https://arxiv.org/abs/2604.18906" target="_blank" rel="noopener" className="pub-link">Instability-Aware Steering of an Extreme Atmospheric River in an AI Weather Foundation Model</a></div>
+              <div style={{ fontFamily: "'Source Serif 4', Georgia, serif", fontSize: 18, lineHeight: 1.4, marginBottom: 7 }}><a href="https://arxiv.org/abs/2604.18906" target="_blank" rel="noopener" className="pub-link">Instability-Aware Steering of an Extreme Atmospheric River in an AI Weather Foundation Model</a></div>
               <div style={{ fontSize: 13.5, lineHeight: 1.6, color: '#5f594c' }}><strong style={{ fontWeight: 600, color: '#33302a' }}>Liu, M.</strong>, Huang, Q., &amp; Lall, U. · Geophysical Review Letter <span style={badge}>under review</span></div>
             </div>
           </li>
           <li style={{ display: 'grid', gridTemplateColumns: '46px minmax(0,1fr)', gap: 16 }}>
             <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, color: '#a29a88', paddingTop: 5 }}>2026</span>
             <div>
-              <div style={{ fontFamily: 'Newsreader, Georgia, serif', fontSize: 18, lineHeight: 1.4, marginBottom: 7 }}><a href="https://arxiv.org/abs/2605.29248" target="_blank" rel="noopener" className="pub-link">Steering Tropical Cyclones Using Small Perturbations in an AI Weather Model</a></div>
+              <div style={{ fontFamily: "'Source Serif 4', Georgia, serif", fontSize: 18, lineHeight: 1.4, marginBottom: 7 }}><a href="https://arxiv.org/abs/2605.29248" target="_blank" rel="noopener" className="pub-link">Steering Tropical Cyclones Using Small Perturbations in an AI Weather Model</a></div>
               <div style={{ fontSize: 13.5, lineHeight: 1.6, color: '#5f594c' }}>Huang, Q., <strong style={{ fontWeight: 600, color: '#33302a' }}>Liu, M.</strong>, Kwon, Y., Kapnick, S., &amp; Lall, U. · Journal of Geophysical Research: Machine Learning and Computation <span style={badge}>under review</span></div>
             </div>
           </li>
           <li style={{ display: 'grid', gridTemplateColumns: '46px minmax(0,1fr)', gap: 16 }}>
             <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, color: '#a29a88', paddingTop: 5 }}>2026</span>
             <div>
-              <div style={{ fontFamily: 'Newsreader, Georgia, serif', fontSize: 18, lineHeight: 1.4, marginBottom: 7 }}>Evaluating the Predictability of Selected Weather Extremes with Aurora, an AI Weather Forecast Model</div>
+              <div style={{ fontFamily: "'Source Serif 4', Georgia, serif", fontSize: 18, lineHeight: 1.4, marginBottom: 7 }}>Evaluating the Predictability of Selected Weather Extremes with Aurora, an AI Weather Forecast Model</div>
               <div style={{ fontSize: 13.5, lineHeight: 1.6, color: '#5f594c' }}>Huang, Q., <strong style={{ fontWeight: 600, color: '#33302a' }}>Liu, M.</strong>, Kwon, Y., &amp; Lall, U. · Atmosphere</div>
             </div>
           </li>
           <li style={{ display: 'grid', gridTemplateColumns: '46px minmax(0,1fr)', gap: 16 }}>
             <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, color: '#a29a88', paddingTop: 5 }}>2026</span>
             <div>
-              <div style={{ fontFamily: 'Newsreader, Georgia, serif', fontSize: 18, lineHeight: 1.4, marginBottom: 7 }}><a href="https://journals.aps.org/pre/abstract/10.1103/gcz8-3j9y" target="_blank" rel="noopener" className="pub-link">Regime identification and control of extremes in the nonautonomous Lorenz model with chaos and intransitivity</a></div>
+              <div style={{ fontFamily: "'Source Serif 4', Georgia, serif", fontSize: 18, lineHeight: 1.4, marginBottom: 7 }}><a href="https://journals.aps.org/pre/abstract/10.1103/gcz8-3j9y" target="_blank" rel="noopener" className="pub-link">Regime identification and control of extremes in the nonautonomous Lorenz model with chaos and intransitivity</a></div>
               <div style={{ fontSize: 13.5, lineHeight: 1.6, color: '#5f594c' }}><strong style={{ fontWeight: 600, color: '#33302a' }}>Liu, M.</strong>, Huang, Q., &amp; Lall, U. · Physical Review E 113, 064207</div>
             </div>
           </li>
           <li style={{ display: 'grid', gridTemplateColumns: '46px minmax(0,1fr)', gap: 16 }}>
             <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, color: '#a29a88', paddingTop: 5 }}>2026</span>
             <div>
-              <div style={{ fontFamily: 'Newsreader, Georgia, serif', fontSize: 18, lineHeight: 1.4, marginBottom: 7 }}><a href="https://www.sciencedirect.com/science/article/abs/pii/S0960077926007988" target="_blank" rel="noopener" className="pub-link">Targeted adaptive chaos control of regimes and eddy strength in two Lorenz models</a></div>
+              <div style={{ fontFamily: "'Source Serif 4', Georgia, serif", fontSize: 18, lineHeight: 1.4, marginBottom: 7 }}><a href="https://www.sciencedirect.com/science/article/abs/pii/S0960077926007988" target="_blank" rel="noopener" className="pub-link">Targeted adaptive chaos control of regimes and eddy strength in two Lorenz models</a></div>
               <div style={{ fontSize: 13.5, lineHeight: 1.6, color: '#5f594c' }}><strong style={{ fontWeight: 600, color: '#33302a' }}>Liu, M.</strong>, Huang, Q., &amp; Lall, U. · Chaos, Solitons &amp; Fractals</div>
             </div>
           </li>
           <li style={{ display: 'grid', gridTemplateColumns: '46px minmax(0,1fr)', gap: 16 }}>
             <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, color: '#a29a88', paddingTop: 5 }}>2026</span>
             <div>
-              <div style={{ fontFamily: 'Newsreader, Georgia, serif', fontSize: 18, lineHeight: 1.4, marginBottom: 7 }}><a href="https://journals.plos.org/water/article?id=10.1371/journal.pwat.0000562" target="_blank" rel="noopener" className="pub-link">Weather Jiu-Jitsu: Prospects for atmospheric nudging to defuse the impact of catastrophic weather extremes</a></div>
+              <div style={{ fontFamily: "'Source Serif 4', Georgia, serif", fontSize: 18, lineHeight: 1.4, marginBottom: 7 }}><a href="https://journals.plos.org/water/article?id=10.1371/journal.pwat.0000562" target="_blank" rel="noopener" className="pub-link">Weather Jiu-Jitsu: Prospects for atmospheric nudging to defuse the impact of catastrophic weather extremes</a></div>
               <div style={{ fontSize: 13.5, lineHeight: 1.6, color: '#5f594c' }}>Huang, Q., <strong style={{ fontWeight: 600, color: '#33302a' }}>Liu, M.</strong>, &amp; Lall, U. · PLOS Water 5(6), e0000562</div>
             </div>
           </li>
@@ -236,7 +236,7 @@ export default function Home() {
       <section style={{ ...sectionBase, paddingTop: 64, paddingBottom: 64, borderTop: '1px solid #e3ddd1' }}>
         <h2 style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, fontWeight: 500, letterSpacing: '0.14em', textTransform: 'uppercase', color: '#8d8676', margin: '0 0 28px' }}>Contact</h2>
         <div>
-          <p style={{ fontFamily: 'Newsreader, Georgia, serif', fontSize: 26, lineHeight: 1.45, margin: '0 0 24px', whiteSpace: 'nowrap' }}>If any of this overlaps with what you are working on, I would like to hear from you.</p>
+          <p style={{ fontFamily: "'Source Serif 4', Georgia, serif", fontSize: 26, lineHeight: 1.45, margin: '0 0 24px', whiteSpace: 'nowrap' }}>If any of this overlaps with what you are working on, I would like to hear from you.</p>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '12px 24px', fontSize: 15 }}>
             <a href="mailto:moyanliu@asu.edu">moyanliu@asu.edu</a>
             <a href="https://www.linkedin.com/in/moyanliu06/" target="_blank" rel="noopener">LinkedIn</a>
