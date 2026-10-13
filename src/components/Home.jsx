@@ -143,13 +143,6 @@ export default function Home() {
           <li style={{ display: 'grid', gridTemplateColumns: '46px minmax(0,1fr)', gap: 16 }}>
             <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, color: '#a29a88', paddingTop: 5 }}>2026</span>
             <div>
-              <div style={{ fontFamily: "'Source Serif 4', Georgia, serif", fontSize: 18, lineHeight: 1.4, marginBottom: 7 }}>Evaluating the Predictability of Selected Weather Extremes with Aurora, an AI Weather Forecast Model</div>
-              <div style={{ fontSize: 13.5, lineHeight: 1.6, color: '#5f594c' }}>Huang, Q., <strong style={{ fontWeight: 600, color: '#33302a' }}>Liu, M.</strong>, Kwon, Y., &amp; Lall, U. · Atmosphere</div>
-            </div>
-          </li>
-          <li style={{ display: 'grid', gridTemplateColumns: '46px minmax(0,1fr)', gap: 16 }}>
-            <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, color: '#a29a88', paddingTop: 5 }}>2026</span>
-            <div>
               <div style={{ fontFamily: "'Source Serif 4', Georgia, serif", fontSize: 18, lineHeight: 1.4, marginBottom: 7 }}><a href="https://journals.aps.org/pre/abstract/10.1103/gcz8-3j9y" target="_blank" rel="noopener" className="pub-link">Regime identification and control of extremes in the nonautonomous Lorenz model with chaos and intransitivity</a></div>
               <div style={{ fontSize: 13.5, lineHeight: 1.6, color: '#5f594c' }}><strong style={{ fontWeight: 600, color: '#33302a' }}>Liu, M.</strong>, Huang, Q., &amp; Lall, U. · Physical Review E 113, 064207</div>
             </div>
@@ -159,6 +152,13 @@ export default function Home() {
             <div>
               <div style={{ fontFamily: "'Source Serif 4', Georgia, serif", fontSize: 18, lineHeight: 1.4, marginBottom: 7 }}><a href="https://www.sciencedirect.com/science/article/abs/pii/S0960077926007988" target="_blank" rel="noopener" className="pub-link">Targeted adaptive chaos control of regimes and eddy strength in two Lorenz models</a></div>
               <div style={{ fontSize: 13.5, lineHeight: 1.6, color: '#5f594c' }}><strong style={{ fontWeight: 600, color: '#33302a' }}>Liu, M.</strong>, Huang, Q., &amp; Lall, U. · Chaos, Solitons &amp; Fractals</div>
+            </div>
+          </li>
+          <li style={{ display: 'grid', gridTemplateColumns: '46px minmax(0,1fr)', gap: 16 }}>
+            <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, color: '#a29a88', paddingTop: 5 }}>2026</span>
+            <div>
+              <div style={{ fontFamily: "'Source Serif 4', Georgia, serif", fontSize: 18, lineHeight: 1.4, marginBottom: 7 }}><a href="https://www.mdpi.com/2073-4433/17/8/716" target="_blank" rel="noopener" className="pub-link">Evaluating the Predictability of Selected Weather Extremes with Aurora, an AI Weather Forecast Model</a></div>
+              <div style={{ fontSize: 13.5, lineHeight: 1.6, color: '#5f594c' }}>Huang, Q., <strong style={{ fontWeight: 600, color: '#33302a' }}>Liu, M.</strong>, Kwon, Y., &amp; Lall, U. · Atmosphere</div>
             </div>
           </li>
           <li style={{ display: 'grid', gridTemplateColumns: '46px minmax(0,1fr)', gap: 16 }}>

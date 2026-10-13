@@ -2,6 +2,7 @@ import { useState, useCallback } from 'react'
 import Background from './components/Background'
 import Home from './components/Home'
 import WeatherJJ from './components/WeatherJJ'
+import PicMoAr from './components/PicMoAr'
 
 const tabBtn = (active) => ({
   background: 'none',
@@ -20,6 +21,7 @@ export default function App() {
 
   const goHome = useCallback(() => { setTab('home'); window.scrollTo(0, 0) }, [])
   const goJJ = useCallback(() => { setTab('jj'); window.scrollTo(0, 0) }, [])
+  const goPic = useCallback(() => { setTab('pic'); window.scrollTo(0, 0) }, [])
 
   return (
     <div style={{ fontFamily: "'Source Sans 3', system-ui, sans-serif", background: '#f7f4ee', minHeight: '100vh', position: 'relative' }}>
@@ -31,12 +33,14 @@ export default function App() {
           <nav style={{ display: 'flex', gap: 22, alignItems: 'baseline', fontSize: 14, letterSpacing: '0.02em' }}>
             <button type="button" onClick={goHome} style={tabBtn(tab === 'home')}>Work</button>
             <button type="button" onClick={goJJ} style={tabBtn(tab === 'jj')}>Weather Jiu-Jitsu</button>
+            <button type="button" onClick={goPic} style={tabBtn(tab === 'pic')}>PicMoAr</button>
           </nav>
         </div>
       </header>
 
       {tab === 'home' && <Home />}
       {tab === 'jj' && <WeatherJJ />}
+      {tab === 'pic' && <PicMoAr />}
     </div>
   )
 }
